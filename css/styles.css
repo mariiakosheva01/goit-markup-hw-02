@@ -131,9 +131,9 @@ ul {
 .main-hero-button:focus {
     background-color: #404BBF;
 }
-/* #region our team */
+/* region our team */
 
-.Our-team {
+.our-team {
     background-color: #F4F4FD;
     
 }
@@ -173,10 +173,10 @@ ul {
     
 }
 
-/* #endregion our team */
+/* endregion our team */
 
  /* our portfolio section */
-.Our-Portfolio {
+.our-portfolio {
     background-color: #ffffff;
     text-align: center
 }   
