@@ -73,37 +73,87 @@ ul {
     
 }
 .nav-item-link {
-    
+    color: #2E2F42;
+    text-decoration: none;
 }
-.contact-list {
+.nav-link:hover {
+    color: #404BBF;
+}
+
+.nav-link:focus {
+    color: #404BBF;
+}
+    
+
+.contact-list {font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
     
 }
 .contact-list-item {
     
 }   
 .contact-list-link {
-    
+    color: #434455;
+        text-decoration: none;
 }
+.contact-list-link:hover {
+    color: #404BBF;
+}
+.contact-list-link:focus {
+    color: #404BBF;
 
 /* region hero */
 .main-hero {
+    background-color: #2E2F42;
     
 }
 .main-hero-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.071;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
     
 }
 
 .main-hero-button {
+    font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        background-color: #4D5AE5;
+        cursor: pointer;
     
 }
+.main-hero-button:hover {
+    background-color: #404BBF;
+}
+.main-hero-button:focus {
+    background-color: #404BBF;
 
 /* #region our team */
 
 .Our-team {
+    background-color: #F4F4FD;
     
 }
 
 .text-our-team {
+    text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.111;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
     
 }
 
@@ -112,12 +162,25 @@ ul {
 }
 
 .team-item {
+    background-color: #ffffff;
     
 }  
 .name-worker {
+    text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
     
 }   
 .profesion {
+    text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
     
 }
 
@@ -125,30 +188,59 @@ ul {
 
  /* our portfolio section */
 .Our-Portfolio {
+    background-color: #ffffff;
     
 }   
 .portfolio-list {
     
 }
 .portfolio-item {
+    text-align: center;
     
 }
 .name-service {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
     
 }
 .text-service {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
     
 }
 
 /* #endregion our portfolio section */
 /* region footer */
 .page-footer {
+    background-color: #2E2F42;
     
 }
 .footer-link {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+    text-decoration: none;
+    text-transform: uppercase;
     
-}       
+}   
+.span-logo-bottom {
+    color: #4D5AE5;
+}
 .footer-text {
+    color: #F4F4FD;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     
 }   
 /* endregion footer */
