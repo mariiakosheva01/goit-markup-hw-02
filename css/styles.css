@@ -39,9 +39,7 @@ ul {
 /* end all box */
 /* region header */
 
-.page-header {
-   
-}
+
 .logo {font-family: Raleway;
     font-weight: 700;
     font-size: 18px;
@@ -66,21 +64,16 @@ ul {
 
 }
 
-.nav-list {
-    
-}
-.nav-list-item {
-    
-}
+
 .nav-item-link {
     color: #2E2F42;
     text-decoration: none;
 }
-.nav-link:hover {
+.nav-item-link:hover {
     color: #404BBF;
 }
 
-.nav-link:focus {
+.nav-item-link:focus {
     color: #404BBF;
 }
     
@@ -94,9 +87,7 @@ ul {
     font-style: normal;
     
 }
-.contact-list-item {
-    
-}   
+
 .contact-list-link {
     color: #434455;
         text-decoration: none;
@@ -106,7 +97,7 @@ ul {
 }
 .contact-list-link:focus {
     color: #404BBF;
-
+}
 /* region hero */
 .main-hero {
     background-color: #2E2F42;
@@ -139,7 +130,7 @@ ul {
 }
 .main-hero-button:focus {
     background-color: #404BBF;
-
+}
 /* #region our team */
 
 .Our-team {
@@ -157,9 +148,7 @@ ul {
     
 }
 
-.team-list {
-    
-}
+
 
 .team-item {
     background-color: #ffffff;
@@ -189,11 +178,9 @@ ul {
  /* our portfolio section */
 .Our-Portfolio {
     background-color: #ffffff;
-    
+    text-align: center
 }   
-.portfolio-list {
-    
-}
+
 .portfolio-item {
     text-align: center;
     
