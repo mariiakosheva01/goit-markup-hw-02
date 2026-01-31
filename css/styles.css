@@ -178,11 +178,15 @@ ul {
  /* our portfolio section */
 .our-portfolio {
     background-color: #ffffff;
-    text-align: center
+    
 }   
+.our-portfolio h2 {
+    text-align: center;
+}
+
 
 .portfolio-item {
-    text-align: center;
+    
     
 }
 .name-service {
@@ -191,7 +195,7 @@ ul {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
-    
+    text-align: left;
 }
 .text-service {
     font-weight: 400;
@@ -199,6 +203,7 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: left;
     
 }
 
